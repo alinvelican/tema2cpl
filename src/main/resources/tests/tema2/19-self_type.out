@@ -1,0 +1,16 @@
+"19-self_type.cl", line 5:11, Semantic error: Method h of class A has formal parameter x with illegal type SELF_TYPE
+"19-self_type.cl", line 2:9, Semantic error: Class A has attribute x with undefined type SELF_TYPE
+"19-self_type.cl", line 7:21, Semantic error: Let variable z has undefined type SELF_TYPE
+Exception in thread "main" java.util.EmptyStackException
+	at java.base/java.util.Stack.peek(Stack.java:102)
+	at ceva.RefPhase.exitIfbody(RefPhase.java:746)
+	at cool.parser.CoolParser$IfbodyContext.exitRule(CoolParser.java:1473)
+	at org.antlr.v4.runtime.tree.ParseTreeWalker.exitRule(ParseTreeWalker.java:47)
+	at org.antlr.v4.runtime.tree.ParseTreeWalker.walk(ParseTreeWalker.java:30)
+	at org.antlr.v4.runtime.tree.ParseTreeWalker.walk(ParseTreeWalker.java:28)
+	at org.antlr.v4.runtime.tree.ParseTreeWalker.walk(ParseTreeWalker.java:28)
+	at org.antlr.v4.runtime.tree.ParseTreeWalker.walk(ParseTreeWalker.java:28)
+	at org.antlr.v4.runtime.tree.ParseTreeWalker.walk(ParseTreeWalker.java:28)
+	at org.antlr.v4.runtime.tree.ParseTreeWalker.walk(ParseTreeWalker.java:28)
+	at cool.compiler.Compiler.main(Compiler.java:124)
+	at cool.tester.Tester2.main(Tester2.java:31)

@@ -1,0 +1,7 @@
+"20-basic-classes.cl", line 1:18, Semantic error: Class A has undefined parent IO
+"20-basic-classes.cl", line 3:9, Semantic error: Class A has attribute s with undefined type String
+"20-basic-classes.cl", line 6:10, Semantic error: Class A has attribute s1 with undefined type String
+"20-basic-classes.cl", line 7:10, Semantic error: Class A has attribute s2 with undefined type String
+"20-basic-classes.cl", line 10:10, Semantic error: Class A has attribute s3 with undefined type String
+"20-basic-classes.cl", line 11:10, Semantic error: Class A has attribute s4 with undefined type String
+Compilation halted
